@@ -1,0 +1,16 @@
+{
+  "name": "tetris-laya-sidecar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laya decision-model sidecar for the Tetris decision engine",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:laya": "LAYA=1 node server.mjs",
+    "test": "node ../tests/decide-test.js"
+  },
+  "engines": { "node": ">=20" },
+  "optionalDependencies": {
+    "@receptron/laya": "^0.1.2"
+  }
+}
